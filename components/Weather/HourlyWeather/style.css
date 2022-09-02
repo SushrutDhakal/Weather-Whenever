@@ -1,0 +1,53 @@
+.hourly {
+    margin-top: 150px;
+}
+
+.hourly_card {
+    box-shadow: rgb(0 0 0 / 50%) 0px 1px 10px;
+    margin-left: 30px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.more-content {
+    border-right: 1px solid #ccc;
+    flex: auto !important;
+    padding-left: 30px;
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+}
+
+.more-content img {
+    width: 50px !important;
+    height: 50px !important;
+}
+
+.more-content:last-child {
+    border: none
+}
+
+.more-content h4 {
+    color: #4ec7e0;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.more-content p {
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.more-content p:nth-child(3) {
+    color: #ccc
+}
+
+.more-content .icon {
+    width: 50px !important;
+    height: 50px !important;
+    background: none;
+}

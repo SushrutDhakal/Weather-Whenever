@@ -1,0 +1,16 @@
+@font-face {
+  font-family: josefins;
+  src: url(../src/assets/fonts/JosefinSans-VariableFont_wght.ttf);
+}
+
+body {
+  margin: 0;
+  font-family: josefins;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
